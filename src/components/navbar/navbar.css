@@ -1,0 +1,67 @@
+.navbar {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 1px solid red; */
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(84,84,84,1);
+    -moz-box-shadow: 0px 4px 8px 0px rgba(84,84,84,1);
+    box-shadow: 0px 4px 8px 0px rgba(84,84,84,1);
+}
+
+.n-logo {
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid blue; */
+}
+
+.n-logo h1 {
+    cursor: pointer;
+}
+
+.n-links {
+    width: 60vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 15px;
+    /* border: 1px solid black; */
+}
+
+.n-links>* {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.n-links>*:hover {
+    color: blue;
+}
+
+.n-leftside {
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid green; */
+}
+
+.n-leftside button {
+    /* outline: none; */
+    padding: 8px 12px;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: rgb(65, 65, 250);
+    color: white;
+    border: 2px solid rgb(65, 65, 250);
+    cursor: pointer;
+}
+
+.n-leftside button:hover {
+    color: rgb(65, 65, 250);
+    background-color: white;
+}
