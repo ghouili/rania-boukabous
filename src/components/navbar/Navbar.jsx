@@ -14,7 +14,7 @@ const Navbar = () => {
         <Link to='/contact'>conract us</Link>
       </div>
       <div className="n-leftside">
-        <button>Authenticate</button>
+        <Link to='/login'>Authenticate</Link>
       </div>
     </div>
   )
